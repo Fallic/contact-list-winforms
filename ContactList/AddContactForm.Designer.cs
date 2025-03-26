@@ -33,6 +33,8 @@
             this.lblsdt = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.btnsave = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -70,18 +72,36 @@
             // 
             // btnsave
             // 
-            this.btnsave.Location = new System.Drawing.Point(148, 174);
+            this.btnsave.Location = new System.Drawing.Point(148, 198);
             this.btnsave.Name = "btnsave";
             this.btnsave.Size = new System.Drawing.Size(75, 23);
             this.btnsave.TabIndex = 4;
             this.btnsave.Text = "Lưu";
             this.btnsave.UseVisualStyleBackColor = true;
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(148, 148);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 5;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(100, 151);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(32, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Email";
+            // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(380, 271);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.btnsave);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.lblsdt);
@@ -101,5 +121,7 @@
         private System.Windows.Forms.Label lblsdt;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button btnsave;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label1;
     }
 }
