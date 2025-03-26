@@ -35,6 +35,7 @@
             this.btnsave = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.lblExtraInfo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -72,7 +73,7 @@
             // 
             // btnsave
             // 
-            this.btnsave.Location = new System.Drawing.Point(148, 198);
+            this.btnsave.Location = new System.Drawing.Point(148, 224);
             this.btnsave.Name = "btnsave";
             this.btnsave.Size = new System.Drawing.Size(75, 23);
             this.btnsave.TabIndex = 4;
@@ -95,11 +96,21 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Email";
             // 
+            // lblExtraInfo
+            // 
+            this.lblExtraInfo.AutoSize = true;
+            this.lblExtraInfo.Location = new System.Drawing.Point(103, 26);
+            this.lblExtraInfo.Name = "lblExtraInfo";
+            this.lblExtraInfo.Size = new System.Drawing.Size(93, 13);
+            this.lblExtraInfo.TabIndex = 7;
+            this.lblExtraInfo.Text = "Thông tin bổ sung";
+            // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(380, 271);
+            this.Controls.Add(this.lblExtraInfo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.btnsave);
@@ -123,5 +134,6 @@
         private System.Windows.Forms.Button btnsave;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblExtraInfo;
     }
 }
